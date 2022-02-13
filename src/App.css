@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+* {
+  font-family: Inter;
+  margin: 0px auto;
+}
+
+body {
+  background: #fbfbfb;
+  font-family: Inter;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #98989e;
+}
+
+.title {
+  white-space: nowrap;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.label {
+  color: #212429;
+  width: 100%;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.inputField {
+  outline: none;
+  width: 100%;
+  margin-bottom: 24px;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 12px 36px;
+}
+
+.inputField:focus {
+  outline: none;
+  border: 1px solid #3183ff;
+}
+
+.wrongInputField {
+  outline: none;
+  border: 1px solid #e7414c;
+  width: 100%;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 12px 36px;
+}
+
+.successInputField {
+  outline: none;
+  border: 1px solid #69cd63;
+  width: 100%;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 12px 36px;
+}
+
+.required {
+  font-size: 12px;
+  position: absolute;
+  font-weight: bold;
+  color: rgb(255, 115, 115);
+  right: 15px;
+  top: 8px;
+}
+
+.invalid-feedback-password {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signBtn {
+  margin: 0;
+  margin-top: 16px;
+}
+
+.form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form {
+  margin: 30px 5px;
+  background: #ffffff;
+  border: 2px solid #ececec;
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 404px;
+  padding: 48px 40px;
+}
+
+.formSuccess {
+  margin: 30px 5px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid #ececec;
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 404px;
+  padding: 48px 40px;
+}
+
+.signBtn {
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  background: #3183ff;
+  border-radius: 24px;
+  padding: 14px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.thank {
+  margin: 10px 0px 30px 0px;
+}
+
+@media (max-width: 422px) {
+  .required {
+    letter-spacing: -0.1px;
+    font-size: 11px;
+  }
+  .form {
+    width: 290px;
+    padding: 24px 20px;
+  }
+
+  .formSuccess {
+    width: 290px;
+    padding: 24px 20px;
+  }
+}
